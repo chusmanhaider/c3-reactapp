@@ -5,8 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  
-    <App />
+    <div>
+      
+      <App name="Usman Haider" job="Software Engineer (React JS and Node JS)"/>
+    </div>
+    
   ,
   document.getElementById('root')
 );

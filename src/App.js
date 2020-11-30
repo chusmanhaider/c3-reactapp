@@ -1,11 +1,11 @@
 import './App.css';
 
-function App() {
+function App(data) {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Usman Haider</h1>
-        <h2>Software Engineer</h2>
+        <h1>{data.name}</h1>
+        <h2>{data.job}</h2>
       </header>
     </div>
   );
