@@ -5,13 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <div>
-      
-      <App name="Usman Haider" job="Software Engineer (React JS and Node JS)"/>
-    </div>
     
-  ,
-  document.getElementById('root')
+    React.createElement('div',{class:'cls'},"Hello World"),
+    document.getElementById('root')
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
