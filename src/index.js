@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
     <div>
       
-      <App name="Usman Haider" job="Software Engineer (React JS and Node JS)"/>
+      <App/>
     </div>
     
   ,
