@@ -2,16 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Form from './Form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <div>
-      
-      <App/>
-    </div>
     
-  ,
-  document.getElementById('root')
+    React.createElement('div',{className:'cls'},"Hello World"),
+    document.getElementById('root')
+  
+);
+ReactDOM.render(
+    
+    React.createElement('div',{className:'clsOne'},"Hello World..."),
+    document.getElementById('root1')
+  
+);
+ReactDOM.render(
+    <Form name="Usman Haider" job="Software Engineer"/>,
+    document.getElementById('root2')
 );
 
 // If you want to start measuring performance in your app, pass a function
