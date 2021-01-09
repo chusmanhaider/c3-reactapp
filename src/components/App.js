@@ -1,11 +1,10 @@
 import './App.css';
-
-function App() {
+//import Form from './Form';
+function App(data) {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Usman Haider</h1>
-        <h2>Assistant Software Engineer</h2>
+        
       </header>
     </div>
   );

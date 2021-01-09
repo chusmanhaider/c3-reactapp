@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Form from './Form';
+//import App from './App';
+import Form from './components/Form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -18,7 +18,7 @@ ReactDOM.render(
   
 );
 ReactDOM.render(
-    <Form name="Usman Haider" job="Software Engineer"/>,
+    <Form/>,
     document.getElementById('root2')
 );
 
