@@ -1,12 +1,15 @@
+import GetUserInfo from "./GetUserInfo";
+
 function Form(data) {
     return (
       <div className="App">
         <header className="App-headerTwo">
-          <h1>Usman Haider</h1>
-          <h2>Assistant Director - BS 16</h2>
+          <h1>Full Name : {data.name}</h1>
+          <h2>Role : {data.role}</h2>
         </header>
         <div>
-          <input type="text" class="form-control"></input>
+          <GetUserInfo></GetUserInfo>
+          
         </div>
       </div>
     );

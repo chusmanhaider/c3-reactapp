@@ -11,14 +11,9 @@ ReactDOM.render(
     document.getElementById('root')
   
 );
+
 ReactDOM.render(
-    
-    React.createElement('div',{className:'clsOne'},"Hello World..."),
-    document.getElementById('root1')
-  
-);
-ReactDOM.render(
-    <Form/>,
+    <Form name="Usman Haider" role="SQA Engineer"/>,
     document.getElementById('root2')
 );
 
